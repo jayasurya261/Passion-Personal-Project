@@ -9,7 +9,7 @@ const Choose = () => {
           description:
             "Lets Check how the Cancer Surgery was done",
           link: "https://stripe.com",
-          src:"https://img.freepik.com/free-photo/ordinary-busy-day-surgeon_329181-19717.jpg?t=st=1734605370~exp=1734608970~hmac=ea39862a1f24a5b40be39ea6d78fa83836ac30c210724d1cc88c14d3fbf96b88&w=1060",
+          src:"https://chspecialists.org/wp-content/uploads/2023/02/What-Qualifies-as-Major-or-Minor-Surgery.jpg",
           name:"https://res.cloudinary.com/dfrojkr3z/video/upload/v1734714726/Surgery-360_expzog.mp4"
         },
         {
