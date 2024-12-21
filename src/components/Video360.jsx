@@ -103,13 +103,14 @@ const Video360 = () => {
 
       {videoReady && (
         <motion.div
-          className="w-full h-full absolute top-0 left-0 z-20"
+          className="w-full h-full absolute top-0 left-0 z-20 opacity-50"
           id="box"
           initial={{ x: "-100%" }}
           animate={{ x: "100%" }}
-          transition={{ duration: 4, ease: "linear" }}
+          transition={{ duration: 6, ease: "linear" }}
         >
           <img src="/swipe.jpg" alt="Swipe" />
+          <p className="opacity-100 text-3xl">Double Click And Drag the Pointer</p>
         </motion.div>
       )}
 
