@@ -154,7 +154,7 @@ const Hero = () => {
             <CardItem
               translateZ={20}
               as={Link}
-              to=""
+              to="www.linkedin.com/in/jayasurya-r-b37997279"
               target="__blank"
               className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
             >
@@ -165,7 +165,7 @@ const Hero = () => {
               as="button"
               className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
             >
-              Portfolio
+              
             </CardItem>
           </div>
         </CardBody>
