@@ -107,7 +107,7 @@ const Video360 = () => {
           id="box"
           initial={{ x: "-100%" }}
           animate={{ x: "100%" }}
-          transition={{ duration: 6d, ease: "linear" }}
+          transition={{ duration: 6, ease: "linear" }}
         >
           <img src="/swipe.jpg" alt="Swipe" />
           <p className="opacity-100 text-3xl">Double Click And Drag the Pointer</p>
