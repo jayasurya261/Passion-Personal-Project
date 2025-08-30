@@ -66,10 +66,15 @@ const Choose = () => {
           <div className="mx-auto px-8 bg-black w-full h-full">
             <HoverEffect items={projects} />
           </div>
-          <div className="flex justify-center items-center bg-black">
+          <div className="flex justify-center items-center gap-6 bg-black pb-10">
             <Link to="/">
-              <button className="bg-white text-black pr-20 pl-20 p-3 mb-10 rounded-2xl font-bold hover:animate-bounce">
+              <button className="bg-white text-black px-20 py-3 rounded-2xl font-bold hover:animate-bounce">
                 Go Back
+              </button>
+            </Link>
+            <Link to="/ai">
+              <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-20 py-3 rounded-2xl font-bold hover:animate-bounce hover:from-blue-600 hover:to-purple-700 transition-all duration-200">
+                AI Assistant
               </button>
             </Link>
           </div>
