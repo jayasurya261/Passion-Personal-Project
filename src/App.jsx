@@ -8,6 +8,7 @@ import Video360 from "./components/Video360";
 import Choose from "./components/Choose";
 import AI from "./components/AI";
 import AIHeroPage from "./components/AiPage";
+import ChatAnalytics from "./components/Analytics";
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
       <Route path = '/video' element={<Choose/>}/>
       <Route path = '/ai' element={<AI/>}/>
       <Route path = '/ai-page' element={<AIHeroPage/>}/>
+      <Route path = '/insight' element={<ChatAnalytics/>}/>
     </Routes>
    </BrowserRouter>
   );

@@ -35,7 +35,12 @@ const AIHeroPage = () => {
               </h1>
             </div>
             
-            <div className="w-24"></div> {/* Spacer for center alignment */}
+            <Link to="/insight" className="group">
+              <button className="flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-indigo-500/20 to-purple-500/20 hover:from-indigo-500/30 hover:to-purple-500/30 backdrop-blur-sm text-white rounded-xl transition-all duration-300 border border-indigo-400/30 hover:border-indigo-300/50">
+                <Brain className="w-4 h-4 group-hover:scale-110 transition-transform duration-300" />
+                <span>Insights</span>
+              </button>
+            </Link>
           </div>
         </div>
       </header>
