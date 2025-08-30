@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router';
-import { Bot, Brain, BookOpen, Target, Crown, Video, ArrowRight, Sparkles, Zap, Users } from 'lucide-react';
+import { Bot, Brain, BookOpen, Target, Crown, Video, ArrowRight, Sparkles, Zap, Users, Volume2 } from 'lucide-react';
 
 const AIHeroPage = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -35,12 +35,21 @@ const AIHeroPage = () => {
               </h1>
             </div>
             
-            <Link to="/insight" className="group">
-              <button className="flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-indigo-500/20 to-purple-500/20 hover:from-indigo-500/30 hover:to-purple-500/30 backdrop-blur-sm text-white rounded-xl transition-all duration-300 border border-indigo-400/30 hover:border-indigo-300/50">
-                <Brain className="w-4 h-4 group-hover:scale-110 transition-transform duration-300" />
-                <span>Insights</span>
-              </button>
-            </Link>
+            <div className="flex items-center space-x-3">
+              <Link to="/speak" className="group">
+                <button className="flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-green-500/20 to-emerald-500/20 hover:from-green-500/30 hover:to-emerald-500/30 backdrop-blur-sm text-white rounded-xl transition-all duration-300 border border-green-400/30 hover:border-green-300/50">
+                  <Volume2 className="w-4 h-4 group-hover:scale-110 transition-transform duration-300" />
+                  <span>Speak</span>
+                </button>
+              </Link>
+
+              <Link to="/insight" className="group">
+                <button className="flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-indigo-500/20 to-purple-500/20 hover:from-indigo-500/30 hover:to-purple-500/30 backdrop-blur-sm text-white rounded-xl transition-all duration-300 border border-indigo-400/30 hover:border-indigo-300/50">
+                  <Brain className="w-4 h-4 group-hover:scale-110 transition-transform duration-300" />
+                  <span>Insights</span>
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </header>
