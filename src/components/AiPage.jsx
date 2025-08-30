@@ -190,7 +190,7 @@ const AIHeroPage = () => {
           {/* Bottom CTA Section */}
           <div className={`text-center pt-16 transition-all duration-1000 delay-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <h3 className="text-3xl font-bold text-white mb-6">Ready to Transform Your Learning?</h3>
-            <div className="flex justify-center items-center gap-8">
+            <div className="flex justify-center items-center gap-6 flex-wrap">
               <Link to="/ai">
                 <button className="group bg-gradient-to-r from-blue-500 to-purple-600 text-white px-10 py-4 rounded-xl font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1">
                   <span className="flex items-center space-x-2">
@@ -200,7 +200,18 @@ const AIHeroPage = () => {
                 </button>
               </Link>
 
-              <div className="w-px h-12 bg-white/20"></div>
+              <div className="hidden sm:block w-px h-12 bg-white/20"></div>
+
+              <Link to="/game">
+                <button className="group bg-gradient-to-r from-green-500 to-emerald-600 text-white px-10 py-4 rounded-xl font-semibold hover:from-green-600 hover:to-emerald-700 transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1">
+                  <span className="flex items-center space-x-2">
+                    <Target className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" />
+                    <span>Quiz Game</span>
+                  </span>
+                </button>
+              </Link>
+
+              <div className="hidden sm:block w-px h-12 bg-white/20"></div>
 
               <Link to="/choose">
                 <button className="group bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white px-10 py-4 rounded-xl font-semibold transition-all duration-300 border border-white/20 hover:border-white/30">

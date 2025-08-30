@@ -9,6 +9,7 @@ import Choose from "./components/Choose";
 import AI from "./components/AI";
 import AIHeroPage from "./components/AiPage";
 import ChatAnalytics from "./components/Analytics";
+import MCQGame from "./components/Mcq";
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
       <Route path = '/ai' element={<AI/>}/>
       <Route path = '/ai-page' element={<AIHeroPage/>}/>
       <Route path = '/insight' element={<ChatAnalytics/>}/>
+      <Route path = '/game' element={<MCQGame/>}/>
     </Routes>
    </BrowserRouter>
   );
