@@ -10,7 +10,7 @@ const SiruvaniChatbot = () => {
     messages: [
       {
         id: 1,
-        text: "Hello! I'm Siruvani AI, your educational tutor specialized in NCERT and Samacheer Kalvi curricula. I can help you with:\n\n📚 Subject explanations (Math, Science, Social Studies, etc.)\n🔬 Lab experiments and practical knowledge\n📖 Chapter summaries and key concepts\n💡 Problem-solving techniques\n📝 Exam preparation tips\n\nWhat would you like to learn today?",
+        text: "Hello! I'm Next Gen AI, your educational tutor specialized in NCERT and Samacheer Kalvi curricula. I can help you with:\n\n📚 Subject explanations (Math, Science, Social Studies, etc.)\n🔬 Lab experiments and practical knowledge\n📖 Chapter summaries and key concepts\n💡 Problem-solving techniques\n📝 Exam preparation tips\n\nWhat would you like to learn today?",
         sender: 'bot',
         timestamp: new Date(Date.now() - 86400000)
       }
@@ -361,7 +361,7 @@ Remember: You are here to help Indian students excel in their NCERT and Samachee
                 <Bot className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-gray-800">Siruvani AI Tutor</h1>
+                <h1 className="text-xl font-bold text-gray-800">Passion AI Tutor</h1>
                 <p className="text-sm text-gray-600">NCERT & Samacheer Kalvi Educational Assistant</p>
                 <p className="text-xs text-green-600">💾 Data persists across reloads</p>
               </div>

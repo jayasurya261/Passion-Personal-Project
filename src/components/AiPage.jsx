@@ -31,7 +31,7 @@ const AIHeroPage = () => {
             
             <div className="text-center">
               <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Siruvani AI Platform
+                Passion AI Platform
               </h1>
             </div>
             
@@ -103,7 +103,7 @@ const AIHeroPage = () => {
 
             {/* Main Title */}
             <h1 className="text-7xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-blue-200 to-purple-200 bg-clip-text text-transparent leading-tight">
-              Siruvani AI
+              Passion AI
             </h1>
             
             <h2 className="text-3xl md:text-4xl font-semibold text-blue-300 mb-8">
